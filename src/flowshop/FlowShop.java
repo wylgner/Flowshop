@@ -42,7 +42,7 @@ public class FlowShop {
 
         // Popula o vetor de maquinas com os Nomes Especificados
         for (int i = 0; i < NUMERO_MAQUINAS; i++) {
-            maquinas[i] = nomeMaquinas[i];
+            maquinas[i] = "M"+i;
         }
 
         // Popula o vetor de TAREFAS com os Nomes Especificados
